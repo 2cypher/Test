@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Untitled Document</title>
+<link href='style.css' type='text/css' rel='stylesheet' />
+<style type='text/css'>
+<!--
+
+-->
+</style>
+</head>
+
+<body>
+<table width='1000' align='center'>
+  <tr>
+    <td><img src='logo.png' width='400' height='120' /></td>
+  </tr>
+  <tr>
+    <td align='center'>
+    
+    <div id='searchwrapper'><form action = 'http://localhost:8080/servlet/SearchQuote' method='post'>
+<input type='text' class='searchbox' name='quote' value='' />
+<input type='image' src='searchbtn.png' class='searchbox_submit' value='' />
+</form>
+</div>
+    
+    </td>
+  </tr>
+  <tr>
+    <td align='left' class="quotefont">Admin Panel<span class="userquotefont"><strong></strong></span></td>
+  </tr>
+    <tr>
+    <td align='center'><table width='942' cellpadding='0' cellspacing='0'>
+      <tr>
+        <td><img src='main_table_r1_c1.png' width='942' height='36' /></td>
+      </tr>
+      <tr>
+        <td bgcolor='#EFFFCD' width='942'>
+        
+        <form action = 'http://localhost:8080/servlet/QuoteUpdate' method='post'>
+        <table width='900' align='center' cellpadding="7" cellspacing="3">
+          <tr onMouseOver=this.style.backgroundColor='#DCE9BE' onMouseOut=this.style.backgroundColor=''>
+            <td class='quotefont'>Please enter your new Quote and Author to update the database.</td>
+          </tr>
+          <tr onMouseOver=this.style.backgroundColor='#DCE9BE' onMouseOut=this.style.backgroundColor=''>
+            <td class='authorfont'>Quote :  
+              <input type="text" name="quote" id="quote"></td>
+          </tr>
+          <tr>
+            <td class="authorfont"> Author : 
+              <input type="password" name="author" id="author"></td>
+          </tr>
+          <tr>
+            <td align="left"><input type="submit" name="button" id="button" value="Submit"></td>
+          </tr>
+        </table>
+        </form>
+        </td>
+      </tr>
+      <tr>
+        <td><img src='main_table_r4_c1.png' width='942' height='13' /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align='center' class='footernav'>Home | Terms of Use | Contact Us</td>
+  </tr>
+  <tr>
+    <td align='center' class='copyrightfont' >Site created by Ryan Jayakody, ryanjayako@gmail.com. Copyright 2010 &copy;</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
